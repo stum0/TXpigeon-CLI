@@ -1,6 +1,6 @@
 # TXpigeon-CLI
 
-bitcoin transaction broadcaster
+bitcoin transaction broadcaster written in rust
 
 broadcasts raw bitcoin transaction to the bitcoin network. 
 
