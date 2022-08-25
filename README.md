@@ -17,7 +17,7 @@ A new node will be selected every 10 seconds if we do not recieve the inv messag
 Broadcast raw bitcoin transaction to the bitcoin network
 
 USAGE:
-    main [OPTIONS] <TX>
+    txp [OPTIONS] <TX>
 
 ARGS:
     <TX>    Input Raw Bitcoin Transaction
