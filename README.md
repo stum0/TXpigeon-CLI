@@ -10,3 +10,20 @@ We then listens to the other connected nodes for an inv message with the txid of
 
 
 A new node will be selected every 10 seconds if we do not recieve the inv message from any of the connected nodes. 
+
+# Commands
+
+Broadcast raw bitcoin transaction to the bitcoin network
+
+USAGE:
+    main [OPTIONS] <TX>
+
+ARGS:
+    <TX>    Input Raw Bitcoin Transaction
+
+OPTIONS:
+    -h, --help          Print help information
+    -l                  enable logging
+    -n <NETWORK>        Select Network [testnet: TestNet] [default: bitcoin]
+    -V, --version       Print version information
+
