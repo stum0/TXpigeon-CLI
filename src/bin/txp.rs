@@ -51,13 +51,13 @@ async fn main() -> Result<()> {
 #[derive(Parser)]
 #[clap(name = "TxPigeon")]
 #[clap(version = "0.3.0")]
-#[clap(about = "send raw bitcoin transaction to the network", long_about = None)]
+#[clap(about = "Broadcast raw bitcoin transaction to the bitcoin network", long_about = None)]
 
 struct Cli {
-    /// raw bitcoin transaction
+    /// Input Raw Bitcoin Transaction
     tx: String,
-    /// choose bitcoin network (Bitcoin(default) = MainNet, Testnet = TestNet)
-    #[clap(long, default_value_t = Network::Bitcoin, value_parser)]
+    /// Select Network [testnet: TestNet]
+    #[clap(short, default_value_t = Network::Bitcoin, value_parser)]
     network: Network,
     /// enable logging
     #[clap(short, action, default_value_t = false)]
