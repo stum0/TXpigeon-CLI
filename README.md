@@ -8,7 +8,7 @@ Opens a connection to 10 bitcoin nodes, randomly selected from bitcoin dns seeds
 
 Sends an inv message which includes the txid of the transaction we want to broadcast to a randomly connected peer.
 
-replies to the GetData message with a TX message that includes the imported raw bitcoin transaction 
+Replies to the GetData message with a TX message that includes the imported raw bitcoin transaction 
 
 To confirm that the transaction has propogated around the network we listen to the other connected peers for a inv message which contains the txid of the broadcasted transaction. 
  
