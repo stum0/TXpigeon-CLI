@@ -36,3 +36,4 @@ OPTIONS:
 list of projects that helped me during development - 
 
 https://github.com/jrawsthorne/rust-bitcoin-node
+https://github.com/laanwj/bitcoin-submittx
