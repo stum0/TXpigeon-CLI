@@ -33,3 +33,5 @@ OPTIONS:
     -n <NETWORK>        Select Network [testnet: TestNet] [default: bitcoin]
     -V, --version       Print version information
 ```
+here are a few projects on github that helped me with this project - 
+https://github.com/jrawsthorne/rust-bitcoin-node
