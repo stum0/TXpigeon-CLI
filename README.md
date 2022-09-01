@@ -1,4 +1,4 @@
-# TXpigeon-CLI
+# TXpigeon-CLI (WORK IN PROGRESS)
 
 bitcoin transaction broadcaster written in rust
 
