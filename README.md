@@ -35,12 +35,12 @@ OPTIONS:
 ```
 ## TO-DO
 
-add tor support
-add i2p support
-add a valid transcation checker similar to testmempoolaccept????
+- add tor support
+- add i2p support
+- add a valid transcation checker similar to testmempoolaccept????
 
 
-## list of projects that helped me during development - 
+### list of projects that helped me during development - 
 
 https://github.com/jrawsthorne/rust-bitcoin-node
 
