@@ -33,6 +33,12 @@ OPTIONS:
     -n <NETWORK>        Select Network [testnet: TestNet] [default: bitcoin]
     -V, --version       Print version information
 ```
+## TO-DO
+
+add tor support
+add i2p support
+add a valid transcation checker similar to testmempoolaccept????
+
 list of projects that helped me during development - 
 
 https://github.com/jrawsthorne/rust-bitcoin-node
